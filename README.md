@@ -1,5 +1,5 @@
-# Trabalho 1 - Projeto de Fonte de Tensão Ajustável 3V-12v
-Projeto realizado no primeiro semestre do curso de Bacharelado em Ciências de Computação, para a disciplina '[SSC0180] – Eletrônica para Computação', ministrada pelo professor Eduardo do Valle Simões, da USP de São Carlos.
+# Trabalho 1 - Fonte de Tensão Ajustável
+Projeto realizado para a disciplina '[SSC0180] – Eletrônica para Computação', ministrada pelo professor Eduardo do Valle Simões. Neste projeto, busca-se projetar uma fonte de tensão ajustável entre 3v e 12v, com uma corrente de 100mA. 
 
 
 # Integrantes - Grupo 17
@@ -9,13 +9,12 @@ Projeto realizado no primeiro semestre do curso de Bacharelado em Ciências de C
 | Bruna Izabel da Silva Pereira| 15635441 | 
 | Camilli Gabrielli Ramos Muniz| 15635722 |
 | [Laura Fernandes Camargos](https://github.com/laurafcamargos)| 13692334 |
-| Sandy da Costa Dutra| 12544570 |
+| [Sandy da Costa Dutra](https://github.com/sandycdutra)| 12544570 |
 
 
 
 # Objetivo
-Projetar uma fonte de tensão retificadora, ajustável entre 3V e 12V, com capacidade de 100mA.
-
+Projetar e montar uma fonte de tensão ajustável (corrente contínua) entre 3v e 12v, com capacidade de 100mA. Ela deve ser capaz de receber uma corrente alternada de tensão eficaz de 127v e fornecer uma corrente contínua.
 
 # Diagrama da Fonte
 ![Diagrama da fonte no software Falstad]
