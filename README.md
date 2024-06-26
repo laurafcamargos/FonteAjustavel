@@ -17,9 +17,9 @@ Projeto realizado para a disciplina '[SSC0180] – Eletrônica para Computação
 Projetar e montar uma fonte de tensão ajustável (corrente contínua) entre 3v e 12v, com capacidade de 100mA. Ela deve ser capaz de receber uma corrente alternada de tensão eficaz de 127v e fornecer uma corrente contínua.
 
 # Diagrama da Fonte
-![Diagrama da fonte no software Falstad](img/circuito_falstad.png "Diagrama da fonte no software Falstad")
+![Diagrama da fonte no software Falstad](img/circuit-20240626-0729.png "Diagrama da fonte no software Falstad")
 
-[Link para o circuito no Falstad](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWc0DMAOSAWBB2TY0A2SQnSATkJExxCUxToFMBaMMAKADcRDNxivfigBMUcL0jgc5aMQQQpS6Ag4AVISFECpYQVP4ww+HKJFoo0EShyEUetI7THykWixQqEhAvZG4EEWxsVjBaGHJIjgB3cEx+Sjj+fypIGJ0tMSCpbTTYvV1BbIy8pJBEsKpEtIATaSqqYu0xGqYAMwBDAFcAGwAXDjrK8sbMQqkW9u7+wZAmsRQsEbmQVs7egbrigq0lxMn1mYBzMpTTnDElDgAnakTEzArbcUIMDhR+ADkAeQBlX++LAAWgBRT4ggBKEjA0BwxhQgWc5HMYHgIlY4TmsHgONxkDQ-DAjE4AC87o1vOT6isfv9AaDwRD0o8GnR4stSizqYjqWk+rwLnNKRcJpTdCA2DAEGhyN4EAgPt44fLLHCaIRyGNfP49BBUXBVlMNukRXMxiBTcNSrhWQh2dVmftKVyUChUiaRBNBTgCXNBdbzNzkbzHVRXVQXa8oKGtFHiBY3RY0rd47GLKnFoYtK5Shmoz7hFHkyAZY1BaW0+IwJ6OGF+KnPen8btCeAcZZIEEMHi8YwIUwAM4ASwHfQ6ADsAMZMdIIYPDVNW9KL54N5u5oJCqikLJij26Z6mh2xI9UG0c2uEMQMMQPbTDA7TPosHpMIbiZSQTi3G-U39nXR4HSYxkkpBFd3dWJwK3ahmj3WJ-2dJ1IK0QJll-Y9YNvCN7hQ6DEkzC9PXIVDsNImDP0QRpPARSgRAIVxHhoJNsT1DgAAdynZERBU1QsLEUaMbCkAs-TECseLEQTSlExMSwIot0grOS+MrUoJN47j-Q4AB7IUJAMCgSM9SxLhWfwtA4IA)
+[Link para o circuito no Falstad](https://tinyurl.com/2ehnnvpj)
 
 
 # Escolha de Componentes
