@@ -43,7 +43,6 @@ Projetar e montar uma fonte de tensão ajustável (corrente contínua) entre 3v 
 
 #### Capacitor
 > * O capacitor serve para armazenar temporariamente uma certa carga durante um periodo de auta crescente da tensão e descarrega no período subsequente. Assim, ele serve para "atenuar" a queda da tensão, mantendo a tensão máxima inalterada, porém elevando a tensão máxima. 
-> * Idealmente, se previa um capacitor com uma capacitância de aproximadamente 1,4 mF, que se trata de um valor comercial segundo o Falstad. Entretanto, por ser difício de encontrar, um bom substituto são dois capacitores ligados em paralelo de 1mF e 470uF (listados acima).
 
 #### Zenner
 > * Serve para 'filtrar' o excesso de corrente. Escolhe-se um valor abaixo da tensão mínima no ponto C (considerando o capacitor) para assim eliminar ou mitigar o ripple - isto é, tornar a corrente de fato contínua. 
