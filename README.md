@@ -39,11 +39,18 @@ Projetar e montar uma fonte de tensão ajustável (corrente contínua) entre 3v 
 
 #### Transformador
 > * O transformador é o componente responsável por abaixar a tensão da tomada (110 V) para uma tensão mais próxima da que será trabalhada (3-12V). O transformador, emprestado pelo professor Simões, leva 110V para 24.2V.
-#### Ponte de Diodods
-> * Os diodos são usados para formar a ponte retificadora. Essa ponte é responsável por proporcionar o maior aproveitamento da energia, abastecendo o circito com a corrente em ambos os ciclos da corrente alternada. Sua função é garantir que a corrente apenas flua em um sentido. Ela segue sendo alternada, porém não "desce" abaixo do "zero". 
+
+>  ![](img/transformador.gif)
+#### Ponte de Diodos
+> * Os diodos são usados para formar a ponte retificadora. Essa ponte é responsável por proporcionar o maior aproveitamento da energia, abastecendo o circito com a corrente em ambos os ciclos da corrente alternada. Sua função é garantir que a corrente apenas flua em um sentido. Ela segue sendo alternada, porém não "desce" abaixo do "zero".
 > * No gráfico, ela funciona como se fosse um módulo. Ou seja, quando aplicada em uma corrente alternada (senoide), ela "joga" os pontos "negativos" para o 'positivo'.
+
+>  ![](img/ponte.gif)
+
 #### Capacitor
 > * O capacitor serve para armazenar temporariamente uma certa carga durante um período crescente da tensão e descarrega no período subsequente. Além disso, é responsável por carregar o sistema quando a tensão (vinda da ponde de diodos) está em declínio, estabilizando a tensão que vai para o restante do circuito e criando o "ripple". O capacitor escolhido é um de 470uF, para criar um ripple de até 10%, como foi exigido pelo professor na especificação do trabalho.
+
+>  ![](img/capac.gif)
 
 #### Zener
 > * Serve para "filtrar" o excesso de corrente. Escolhe-se um valor abaixo da tensão mínima para assim eliminar ou mitigar o ripple - isto é, tornar a corrente de fato contínua. 
@@ -58,11 +65,14 @@ Projetar e montar uma fonte de tensão ajustável (corrente contínua) entre 3v 
 
 #### Resistores
 > * Servem para limitar a quantidade de corrente que passam pelo circuito.
+
 #### Transistor 
 > * Serve para ajustar a corrente que será alimentada ao dispositivo. Ele aplifica a corrente sem exigir que uma grande corrente passe pelo resistor ligado ao Zener. 
 > * Como é possível ter um resistor grande o suficiente para evitar que o Zener queime e pequeno o bastante para alimentar o dispositivo com a corrente necessária? > Utilize um transistor NPN!
 > * Um "defeito" natural desse tipo de transistor é que ele não pode passar mais tensão do que a tensão da base - 0.7. Porém, nesse caso, isso é uma vantagem, pois mesmo com uma corrente muito pequena, a base do transistor será capaz de estabelecer uma tensão máxima.
 > * Utilizando a corrente que passa pela base como referência, ele amplifica essa em 100 vezes. No pior caso (12V) ele recebe 1mA na base, e emite 100mA pelo emissor.
+
+>  ![](img/transistor.gif) 
 
 <br><br>
 
