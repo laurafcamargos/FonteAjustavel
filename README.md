@@ -74,8 +74,6 @@ Projetar e montar uma fonte de tensão ajustável (corrente contínua) entre 3v 
 
 >  ![](img/transistor.gif) 
 
-<br><br>
-
 # Projeto Esquemático do PCB no Software Eagle
 ![Esquema do Eagle](img/photo_2024-06-27_01-11-25.jpg "Esquema do Eagle")
 
