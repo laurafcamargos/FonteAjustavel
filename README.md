@@ -37,32 +37,32 @@ Projetar e montar uma fonte de tensão ajustável (corrente contínua) entre 3v 
 | 1 | [Resistor CR25 1.8k] |180Ω +/-5%, 2W|R$0,07|
 | Total | | |R$|
 
+#### Transformador
+> * O transformador é o componente responsável por abaixar a tensão da tomada (110 V) para uma tensão mais próxima da que será trabalhada (3-12V). O transformador, emprestado pelo professor Simões, leva 110V para 24.2V.
 #### Ponte de Diodods
-> * Esse componente pode ser feito com 4 diodos, porém é mais fácil comprá-lo pronto. Sua função é garantir que a corrente apenas flua em um sentido. Ela segue sendo alternada, porém não 'desce' abaixo do 'zero'. 
-> * No gráfico, ela funciona como se fosse um módulo. Ou seja, quando aplicada em uma corrente alternada (senoide), ela 'joga' os pontos 'negativos' para o 'positivo'.
-
+> * Os diodos são usados para formar a ponte retificadora. Essa ponte é responsável por proporcionar o maior aproveitamento da energia, abastecendo o circito com a corrente em ambos os ciclos da corrente alternada. Sua função é garantir que a corrente apenas flua em um sentido. Ela segue sendo alternada, porém não "desce" abaixo do "zero". 
+> * No gráfico, ela funciona como se fosse um módulo. Ou seja, quando aplicada em uma corrente alternada (senoide), ela "joga" os pontos "negativos" para o 'positivo'.
 #### Capacitor
-> * O capacitor serve para armazenar temporariamente uma certa carga durante um periodo de auta crescente da tensão e descarrega no período subsequente. Assim, ele serve para "atenuar" a queda da tensão, mantendo a tensão máxima inalterada, porém elevando a tensão máxima. 
+> * O capacitor serve para armazenar temporariamente uma certa carga durante um período crescente da tensão e descarrega no período subsequente. Além disso, é responsável por carregar o sistema quando a tensão (vinda da ponde de diodos) está em declínio, estabilizando a tensão que vai para o restante do circuito e criando o "ripple". O capacitor escolhido é um de 470uF, para criar um ripple de até 10%, como foi exigido pelo professor na especificação do trabalho.
 
-#### Zenner
-> * Serve para 'filtrar' o excesso de corrente. Escolhe-se um valor abaixo da tensão mínima no ponto C (considerando o capacitor) para assim eliminar ou mitigar o ripple - isto é, tornar a corrente de fato contínua. 
-> * A potência máxima do diodo zener escolhido é bem mais elevada do que o necessário segundo os cáculos (0.5w > 0.0137W), o que garante uma margem de segurança agradável.
+#### Zener
+> * Serve para "filtrar" o excesso de corrente. Escolhe-se um valor abaixo da tensão mínima para assim eliminar ou mitigar o ripple - isto é, tornar a corrente de fato contínua. 
+> * O Zener é usado como limitador de tensão no circuito. O diodo escolhido tem tensão de regulação de 13V, ou seja, ele limita a tensão na saida dele em 13V constantes. Ele será usado para causar uma tensão de referência para o transistor.
 
 #### Led
 > * Apenas serve para indicar a passagem de corrente para o usuário. Se trata de um componente facultativo.
 
-#### Potenciômetro Linear
+#### Potenciômetro 
 > * Serve para regular a voltagem que passará pelo transistor. Dessa forma, é possível ajustar a tensão de acordo com o dispositivo conectado (entre 3v e 12v).
+> * O potenciômetro recebe a corrente em paralelo com o diodo Zener, e portanto tem potencial fixo em aprimadamente 13V (ocorre uma pequena queda do potencial devido as conexões do componente no resto do circuito). Assim, ele controla a tensão mínima (~3V) e máxima (~12V) que vai para o transistor de controle.
 
 #### Resistores
-> * Servem para limitar a quantidade de corrente que passam pelo circuito. 
-> * Os valores das resistencias foram aproximados para valores comerciais. Entretanto, estes resistores ainda são um pouco difíceis de se achar. Assim, uma alternativa e comprar resistores mains comuns e assossia-los de modo que a resistência equivalente seja aproximadamente igual ao modelo inicialmente planejado.
-> * (1.8k ≅ 1k + 0.5k), (2.2k ≅ 2k).
-
-#### Transistor NPN
-> * Serve para ajustar de fato a corrente que será alimentada ao dispositivo. Ele aplifica a corrente sem exigir que uma grande corrente passe pelo resistor ligado ao zener. 
-> * É a resposta para: como é possível ter um resistor grande o suficiente para evitar que o zener queime e pequeno o bastante para alimentar o dispositivo com a corrente necessária? Simples, com um transistor NPN.
-> * Um 'defeito' natural desse tipo de transistor é que ele não pode passar mais tensão do que a tensão da base - 0.7. Porém, nesse caso, isso é uma vantagem, pois mesmo com uma corrente muito pequena, a base do transistor será capaz de estabelecer uma tensão máxima. 
+> * Servem para limitar a quantidade de corrente que passam pelo circuito.
+#### Transistor 
+> * Serve para ajustar a corrente que será alimentada ao dispositivo. Ele aplifica a corrente sem exigir que uma grande corrente passe pelo resistor ligado ao Zener. 
+> * Como é possível ter um resistor grande o suficiente para evitar que o Zener queime e pequeno o bastante para alimentar o dispositivo com a corrente necessária? > Utilize um transistor NPN!
+> * Um "defeito" natural desse tipo de transistor é que ele não pode passar mais tensão do que a tensão da base - 0.7. Porém, nesse caso, isso é uma vantagem, pois mesmo com uma corrente muito pequena, a base do transistor será capaz de estabelecer uma tensão máxima.
+> * Utilizando a corrente que passa pela base como referência, ele amplifica essa em 100 vezes. No pior caso (12V) ele recebe 1mA na base, e emite 100mA pelo emissor.
 
 <br><br>
 
