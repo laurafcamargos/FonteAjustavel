@@ -17,9 +17,9 @@ Projeto realizado para a disciplina '[SSC0180] – Eletrônica para Computação
 Projetar e montar uma fonte de tensão ajustável (corrente contínua) entre 3v e 12v, com capacidade de 100mA. Ela deve ser capaz de receber uma corrente alternada de tensão eficaz de 127v e fornecer uma corrente contínua.
 
 # Diagrama da Fonte
-![Diagrama da fonte no software Falstad](img/circuito_falstad.png "Diagrama da fonte no software Falstad")
+![Diagrama da fonte no software Falstad](img/circuit-20240626-0729.png "Diagrama da fonte no software Falstad")
 
-[Link para o circuito no Falstad](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWc0DMAOSAWBB2TY0A2SQnSATkJExxCUxToFMBaMMAKADcRDNxivfigBMUcL0jgc5aMQQQpS6Ag4AVISFECpYQVP4ww+HKJFoo0EShyEUetI7THykWixQqEhAvZG4EEWxsVjBaGHJIjgB3cEx+Sjj+fypIGJ0tMSCpbTTYvV1BbIy8pJBEsKpEtIATaSqqYu0xGqYAMwBDAFcAGwAXDjrK8sbMQqkW9u7+wZAmsRQsEbmQVs7egbrigq0lxMn1mYBzMpTTnDElDgAnakTEzArbcUIMDhR+ADkAeQBlX++LAAWgBRT4ggBKEjA0BwxhQgWc5HMYHgIlY4TmsHgONxkDQ-DAjE4AC87o1vOT6isfv9AaDwRD0o8GnR4stSizqYjqWk+rwLnNKRcJpTdCA2DAEGhyN4EAgPt44fLLHCaIRyGNfP49BBUXBVlMNukRXMxiBTcNSrhWQh2dVmftKVyUChUiaRBNBTgCXNBdbzNzkbzHVRXVQXa8oKGtFHiBY3RY0rd47GLKnFoYtK5Shmoz7hFHkyAZY1BaW0+IwJ6OGF+KnPen8btCeAcZZIEEMHi8YwIUwAM4ASwHfQ6ADsAMZMdIIYPDVNW9KL54N5u5oJCqikLJij26Z6mh2xI9UG0c2uEMQMMQPbTDA7TPosHpMIbiZSQTi3G-U39nXR4HSYxkkpBFd3dWJwK3ahmj3WJ-2dJ1IK0QJll-Y9YNvCN7hQ6DEkzC9PXIVDsNImDP0QRpPARSgRAIVxHhoJNsT1DgAAdynZERBU1QsLEUaMbCkAs-TECseLEQTSlExMSwIot0grOS+MrUoJN47j-Q4AB7IUJAMCgSM9SxLhWfwtA4IA)
+[Link para o circuito no Falstad](https://tinyurl.com/2ehnnvpj)
 
 
 # Escolha de Componentes
@@ -43,7 +43,6 @@ Projetar e montar uma fonte de tensão ajustável (corrente contínua) entre 3v 
 
 #### Capacitor
 > * O capacitor serve para armazenar temporariamente uma certa carga durante um periodo de auta crescente da tensão e descarrega no período subsequente. Assim, ele serve para "atenuar" a queda da tensão, mantendo a tensão máxima inalterada, porém elevando a tensão máxima. 
-> * Idealmente, se previa um capacitor com uma capacitância de aproximadamente 1,4 mF, que se trata de um valor comercial segundo o Falstad. Entretanto, por ser difício de encontrar, um bom substituto são dois capacitores ligados em paralelo de 1mF e 470uF (listados acima).
 
 #### Zenner
 > * Serve para 'filtrar' o excesso de corrente. Escolhe-se um valor abaixo da tensão mínima no ponto C (considerando o capacitor) para assim eliminar ou mitigar o ripple - isto é, tornar a corrente de fato contínua. 
@@ -68,7 +67,7 @@ Projetar e montar uma fonte de tensão ajustável (corrente contínua) entre 3v 
 <br><br>
 
 # Projeto Esquemático do PCB no Software Eagle
-![Esquema do Eagle](imagens/eagle_circuito.jpg "Esquema do Eagle")
+![Esquema do Eagle](img/eagle_circuito.jpg "Esquema do Eagle")
 
 ![Esquema do Eagle](imagens/esquema_front.jpg "Esquema do Eagle")
 
