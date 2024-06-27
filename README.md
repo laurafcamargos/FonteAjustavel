@@ -79,8 +79,6 @@ Projetar e montar uma fonte de tensão ajustável (corrente contínua) entre 3v 
 
 ![Esquema do Eagle](img/photo_2024-06-27_01-11-38.jpg "Esquema do Eagle")
 
-# Fonte em funcionamento 
->  ![](img/video-Fonte.MOV) 
-
+# [Link para o vídeo da fonte sendo testada no laboratório :)](https://youtu.be/FP3eQh2uglU) 
 
 
