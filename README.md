@@ -26,17 +26,17 @@ Projetar e montar uma fonte de tensão ajustável (corrente contínua) entre 3v 
 
 | Quantidade  | Componente  | Especificações   | Valor  |
 |---|---|---|---|
-| 1 | [Protoboard] | BB-01 400P |R$21,70|
-| 10 | [Diodo Retificador] | Ponte de Diodo 1N4007 |R$2,00| 
-| 1 | [Capacitor] | 470µF, 35V |R$2,80|
-| 1 | [LED] | Vermelho 5mm |R$0,50|
-| 1 | [Diodo Zener]( |1N4743 [13V / 1W] |R$0,50|
-| 1 | [Potenciômetro] | 1W B5K B-16 |R$7,00|
-| 10 | [Resistor CR25 100] | 100Ω |R$0,70|
-| 10 | [Resistor CR25 820] | 820Ω |R$0,70|
-| 10 | [Resistor CR25 1k] | 1000Ω |R$0,70|
-| 10 | [Resistor CR25 1.8k] | 1800Ω |R$0,70|
-| 1 | [Transistor 2N3904] | 60V, 0,2A 0,650W |R$1,60|
+| 1 | Protoboard | BB-01 400P |R$21,70|
+| 10 | Diodo Retificador | Ponte de Diodo 1N4007 |R$2,00| 
+| 1 | Capacitor | 470µF, 35V |R$2,80|
+| 1 | LED | Vermelho 5mm |R$0,50|
+| 1 | Diodo Zener |1N4743 13V, 1W |R$0,50|
+| 1 | Potenciômetro | 1W B5K B-16 |R$7,00|
+| 10 | Resistor CR25 100 | 100Ω |R$0,70|
+| 10 | Resistor CR25 820 | 820Ω |R$0,70|
+| 10 | Resistor CR25 1k | 1000Ω |R$0,70|
+| 10 | Resistor CR25 1.8k | 1800Ω |R$0,70|
+| 1 | Transistor 2N3904 | 60V, 0,2A 0,650W |R$1,60|
 | Total | | |R$38,90|
 
 #### Transformador
