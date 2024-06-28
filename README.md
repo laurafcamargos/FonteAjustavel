@@ -26,16 +26,18 @@ Projetar e montar uma fonte de tensão ajustável (corrente contínua) entre 3v 
 
 | Quantidade  | Componente  | Especificações   | Valor  |
 |---|---|---|---|
-| 1 | [Ponte de Diodos] | Ponte Retificadora KBPC1010 |R$3,67| 
-| 1 | [Capacitor] |470µF, 35V|R$2,80|
-| 1 | [LED] |Vermelho 5mm|R$0,50|
-| 1 | [Diodo Zener]( |1N4743 [13V / 1W]|R$0,50|
-| 1 | [Potenciômetro] |10000Ω|R$1,61|
-| 1 | [Resistor CR25 820] |820Ω +/-5%, 2W|R$0,07|
-| 1 | [Resistor CR25 1k] |1000Ω +/-5%, 1W|R$0,07|
-| 1 | [Resistor CR25 100] |100Ω +/-5%, 2W|R$0,07|
-| 1 | [Resistor CR25 1.8k] |180Ω +/-5%, 2W|R$0,07|
-| Total | | |R$|
+| 1 | [Protoboard] | BB-01 400P |R$21,70|
+| 10 | [Diodo Retificador] | Ponte de Diodo 1N4007 |R$2,00| 
+| 1 | [Capacitor] | 470µF, 35V |R$2,80|
+| 1 | [LED] | Vermelho 5mm |R$0,50|
+| 1 | [Diodo Zener]( |1N4743 [13V / 1W] |R$0,50|
+| 1 | [Potenciômetro] | 1W B5K B-16 |R$7,00|
+| 10 | [Resistor CR25 100] | 100Ω |R$0,70|
+| 10 | [Resistor CR25 820] | 820Ω |R$0,70|
+| 10 | [Resistor CR25 1k] | 1000Ω |R$0,70|
+| 10 | [Resistor CR25 1.8k] | 1800Ω |R$0,70|
+| 1 | [Transistor 2N3904] | 60V, 0,2A 0,650W |R$1,60|
+| Total | | |R$38,90|
 
 #### Transformador
 > * O transformador é o componente responsável por abaixar a tensão da tomada (110 V) para uma tensão mais próxima da que será trabalhada (3-12V). O transformador, emprestado pelo professor Simões, leva 110V para 24.2V.
